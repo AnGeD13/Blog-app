@@ -1,0 +1,91 @@
+h2,
+p,
+div,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  column-gap: 100px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 48.41px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.posts-input {
+  width: 500px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.input-title,
+.input-desc,
+.publish-btn {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 32px;
+  line-height: 38.73px;
+}
+
+.input-title {
+  height: 60px;
+  border: 1px solid black;
+  padding-left: 20px;
+}
+
+.input-desc {
+  height: 250px;
+  border: 1px solid black;
+  padding-left: 20px;
+  resize: none;
+}
+
+.publish-btn {
+  height: 60px;
+  background-color: #0094ff;
+  border: none;
+  color: white;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.post-title {
+  font-size: 32px;
+  line-height: 38.73px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.post-desc {
+  font-size: 25px;
+  line-height: 30.26px;
+  font-weight: 400;
+}
+
+.post-time {
+  font-size: 25px;
+  line-height: 30.26px;
+  color: #0094ff;
+  margin-bottom: 15px;
+}
+
+.input-len {
+  text-align: right;
+  font-size: 18px;
+}

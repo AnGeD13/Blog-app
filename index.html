@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main>
+        <div>
+            <h2>Новый пост</h2>
+            <div class="posts-input">
+                <input 
+                    type="text"
+                    maxlength="100"
+                    class="js-input-title input-title"
+                    placeholder="Заголовок"
+                >
+                <p class="input-len"><span class="input-title-len">0</span>/100</p>
+                <textarea 
+                    maxlength="200"
+                    class="js-input-desc input-desc"
+                    placeholder="Напиши пост"
+                ></textarea>
+                <p class="input-len"><span class="input-desc-len">0</span>/200</p>
+                <button class="publish-btn">Опубликовать</button>
+            </div>
+        </div>
+        <div class="posts-list">
+            <h2>Лента</h2>
+            <div class="posts">
+
+            </div>
+        </div>
+    </main>
+    
+    <SCript src="/script.js"></SCript>
+</body>
+</html>
